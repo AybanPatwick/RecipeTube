@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Add other background properties if needed */
+}
+
+/* HEADER */
+header {
+    background-color: transparent;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Distribute items horizontally */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+/* Styling for listed items */
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    /* Add other necessary styles */
+}
+
+/* Hover effect for listed items */
+nav ul li a:hover {
+    color: #4CAF50; /* Change color on hover */
+    /* Add other hover effects */
+}
+
+/* Assuming .logo class is applied to the logo image */
+.logo {
+    max-width: 100px; /* Adjust the maximum width of the logo */
+    /* Add any other necessary styling for the logo */
+}
+
+.sign-in-btn {
+    border: 1px solid #333; /* Black border */
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    
+    /* Add any other styling for the button */
+}
+
+.sign-in-btn:hover {
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Main Section Styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center items vertically */
+    height: 75vh; /* Set height to 100% of viewport height for vertical centering */
+}
+
+#hero {
+    color: #363434;
+    text-align: center;
+}
+
+#hero h1 {
+    color: #4CAF50;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.join-now-btn {
+    border: 2px solid #fff; /* White border */
+    padding: 12px 24px;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to right, #4CAF50, #2196F3); /* Gradient background */
+    /* Add any other styling for the button */
+}
+
+.join-now-btn:hover {
+    background: linear-gradient(to right, #2196F3, #4CAF50); /* Gradient on hover */
+    transition: background 0.3s ease-in-out;
+}
+
+/* Style for the search bar */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; /* Adjust margin as needed */
+  }
+  
+  .search-input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4285f4; /* Google's blue color */
+    color: white;
+    border-radius: 4px;
+    margin-left: -1px; /* Create a seamless look between the input and button */
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .search-button:hover {
+    background-color: #357ae8; /* Darker shade of blue on hover */
+  }
+
+  .container {
+    width: 320px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 8px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Other styles */
+  .custom-line {
+    border: none; /* Remove default border */
+    height: 1px; /* Set height */
+    background-color: #ccc; /* Set line color */
+    margin: 20px 0; /* Adjust margin */
+  }
+
+  .forum-post {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .post-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .post-info {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .post-description {
+    font-size: 16px;
+  }    
+
+/* CSS */
+.popup-form {
+  position: relative;
+  /* Other styles for the form */
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #555; /* Adjust color as needed */
+  font-size: 20px; /* Adjust size as needed */
+}
+
+
