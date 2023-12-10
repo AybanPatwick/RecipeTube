@@ -1,10 +1,5 @@
 # RecipeTube : A Nutrient-Infused Culinary Journey through YouTube Recipes
 
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-
 ## Introduction
 
 As a Filipino, our daily struggle is finding the right meal for our family. Our team came up with a website that could ease your daily struggle. RecipeTube is a website designed to help home cooks to try out new recipes with ease. Its primary goal is to widen people's list of recipes in order to avoid redundancy in their menu for their daily meal plans. It's not just for people who want to look for a recipe, it can also be for the people who want to share their own recipe to the public forum on the website.
